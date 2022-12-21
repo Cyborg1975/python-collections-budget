@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 expenses = Expense.Expenses()
 
-expenses.read_expenses(open("../data/spending_data.csv", "rt"))
+expenses.read_expenses = open('../data/spending_data.csv', 'rt')
 
 spending_categories = []
 
