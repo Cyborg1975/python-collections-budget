@@ -17,7 +17,7 @@ print(spending_counter)
 
 top5 = spending_counter.most_common(5)
 
-categories, values = zip(category, amount *top5)
+categories, values = zip(*top5)
 
 fig, ax = plt.subplots()
 
