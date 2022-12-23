@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 expenses = Expense.Expenses()
 
-expenses.read_expensse = open("../data/spending_data.csv", "r")
+expenses.read_expense = open("data/spending_data.csv", "r")
 
 spending_categories = []
 
@@ -17,7 +17,7 @@ print(spending_counter)
 
 top5 = spending_counter.most_common(5)
 
-categories, values = zip(*top5)
+categories, values = zip(category, amount *top5)
 
 fig, ax = plt.subplots()
 
