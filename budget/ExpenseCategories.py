@@ -1,5 +1,6 @@
 from . import Expense
 import matplotlib.pyplot as plt
+import timeit
 
 def main():
     expenses = Expense.Expenses()
@@ -16,7 +17,7 @@ def main():
             b.issubset(a)):
             print("Sets are NOT equal by subset test")
 
-
+    timeit.timeit(stmt = "pass" , setup = , number=100000 , globals=globals())
 
 if __name__ == "__main__":
     main()
