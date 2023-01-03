@@ -25,5 +25,5 @@ class BudgetList:
         return sum(len(self.expenses + self.overages))
 
 
-def main():
-    myBudgetList = BudgetList(1200)
+#def main():
+#    myBudgetList = BudgetList(1200)
