@@ -25,7 +25,7 @@ class BudgetList:
 
     def __next__(self):
         try:
-            return self.iter_o.__next__()
+            return __next__(self.iter_o)
         except Exception as e:
             raise 
 
