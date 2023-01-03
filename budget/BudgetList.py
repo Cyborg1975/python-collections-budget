@@ -24,7 +24,10 @@ class BudgetList:
         return self
 
     def __next__(self):
-        pass
+        try:
+            return self.iter_o.__next__()
+        except Exception as e:
+            raise 
 
     def __len__(self):
         return sum(len(self.expenses + self.overages))
