@@ -1,4 +1,4 @@
-import Expense
+from . import Expense
 
 
 expenses = Expense.Expenses()
